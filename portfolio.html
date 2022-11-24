@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story of My Life</title>
+    <link rel="stylesheet" href="portfoliocss.css">
+    <script src="https://kit.fontawesome.com/1040a18fe6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header" >
+    <div class="container">
+        <nav>
+            <img src="./images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-compass" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front-End Developer</p>
+            <h1>Hi, I'm <span>Sahil</span><br>and i'm a second year<br>CSE student in SRM.....</h1>
+        </div>
+    </div> 
+</div>
+<!----------------------ABOUT------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-l">
+                <img src="./images/about.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittles">About Me </h1>
+                <p>I'm a front end Developer who knows how to make a website look more fascinating and appealing to the people. Curently i'm making my way into full-stack development. Have worked my way out in reational database management system as well. Fun Fact about me i'm pretty good at convincing people. </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front End Development</span><br> HTML, CSS and FrameWorks.</li>
+                        <li><span>R-D-B-M-S using SQL</span><br> MYSQL and Python connectors.</li>
+                        <li><span>Python an amature</span><br>programer who likes using libraries.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Computer Vision</span><br> working as a front end developer.</li>
+                        <li><span>Alexa Devs SRM</span><br>working as an alexa skill developer.</li>
+                        <li><span>TEAM 4-0-4</span><br>associate programmer in a open source comunity.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2019</span><br> Passed the inter examinations.</li>
+                        <li><span>2021</span><br> Passed the metric examinations.</li>
+                        <li><span>2022</span><br>A second year student in SRM.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------SERVICES------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>Web Designing</h2>
+                <p>I use the most basic method of making an website that is the html and css. I use html to make the basic framework of the website and then i use the css part to style the conents what i have written in my html file. A little use of javascript also helps in making the website more interesting and appealing. Will be able to make any sort of website with a good looking front end and working back end.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>R-D-B-M-S</h2>
+                <p>Relational Databse Management System is the best way of storing, managing ,updating and viewing data in a proper form. I do the RDBMS using the MySql Sql and Python connectors. Using it i can create a server online and store the data in raw form and present it in any way wither on a wesite or on a server. Using Python it can also be used in app development</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Python is one of the most advanced languages in terms of usage and other work related things. The libraries in the Python makes it more easy to use and create applications and software much faster then the typical methods</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------PORTFOLIO------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work1.jpeg">
+                <div class="layer">
+                    <h3>Website</h3>
+                    <p>Developing website more efficiently</p>
+                    <a href="https://github.com/qxznt"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work2.jpeg">
+                <div class="layer">
+                    <h3>Conferencing app</h3>
+                    <p>the more reliable, reluctsnt and interactive</p>
+                    <a href="https://github.com/qxznt"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work3.jpg">
+                <div class="layer">
+                    <h3>Database Managment</h3>
+                    <p>storing and managing data in a more efficient and viewable way.</p>
+                    <a href="https://github.com/qxznt"> <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/qxznt" class="btn">See More</a>
+    </div>
+</div>
+<!--------------------------------------contact------------------------------>
+<div id="contact">
+    <div class="conatiner">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sahilkumaar051@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-9667162036</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/sahil.punk.33"><i class="fa-brands fa-Facebook"></i></a>
+                    <a href="https://www.instagram.com/itz.saahil/"><i class="fa-brands fa-Instagram"></i></a>
+                    <a href="https://twitter.com/sahil4245?t=UR3eoOjVePsVPrUKBRpuuQ&s=09"><i class="fa-brands fa-Twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/sahil-08957a236"><i class="fa-brands fa-Linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1pwRMZ0GYIVivSCfvco84qDMhwNHSf9OA/view?usp=share_link" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" class="input" name="Name" placeholder="Your Name" required>
+                <input type="text" class="input" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" class="textarea" rows="6" placeholder="Your Message"></textarea>
+                <button class="btn2" type="submit">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made with affection <i class="fa-solid fa-heart"></i> by SAHIL.....</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){ 
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTXWwjb6-BJzU5-wIZcACneVl3aD150mDp9065T8CFLeoyrXWglxZUXyyx5MRHv-qCCQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
